@@ -1,0 +1,82 @@
+.header-links
+    a{
+        text-decoration: none;
+        color: #F8F5EB;
+        font-size: 24px;
+        font-weight: 700;
+    }
+.header-text h1{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Palanquin';
+    color:#54370D;
+}
+.header-text h2 {
+    font-weight: 600;
+    color: #4EA487;
+    font-size: 40px;
+}
+.header-text h3{
+    color: #F1C953;
+    font-size: 64px;
+    font-weight: 700;
+}
+.header-avatar img{
+    width: 120px;
+    height: 120px;
+}
+.header-avatar h1{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Palanquin';
+    color:#54370D;
+}
+.header-avatar h2{
+    color:#54370D;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: bold;
+}
+.header-avatar h3{
+    font-size: 18px;
+    color:#54370D;
+    font-weight: 700;
+}
+.header-socials div{
+    font-family: var(--font-family-pal);
+    font-size: var(--font-size-16px);
+    font-weight: var(--font-weight-400);
+}
+.beach-container h3{
+    text-align: center;
+    font-family: 'Arima', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #54370D;
+    margin-bottom: 40px;
+}
+.beach-list *{
+    font-family: 'Palanquin', sans-serif;
+    font-size: 24px;
+}
+.beach-list strong{
+    font-weight: 700;
+}
+.beach-list {
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.pro-tips-table *{
+    font-family: 'Palanquin', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+.pro-tips-table a{
+    color:#4EA487;
+}
+.end-text *{
+    font-family: 'Palanquin', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #3D3D3D;
+}
