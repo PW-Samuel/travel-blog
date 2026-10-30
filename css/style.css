@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arima';
+    scroll-behavior: smooth;
+}
+.header-box{
+    display: flex;
+    gap: 16px;
+    background-color:#4EA487;
+    width: 100%;
+    min-height: 128px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 120px;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.header-logo{
+    width: 80px;
+    height: 80px;
+    display: flex;
+}
+.header-links{
+    display: flex;
+    gap: 72px;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1 1 400px;
+    min-width: 0;
+}
+.header-text-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+    max-width: 1201px;
+    margin: 80px auto 0;
+    padding: 0 16px; 
+}
+.header-avatar{
+    flex: 0 0 272px;
+    max-width: 100%;
+    border-radius: 30px;
+    background-color: #4EA48733;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-avatar-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-avatar-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+}
+.header-avatar-img{
+    margin-top: 16px;
+}
+.header-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-top: 40px;
+}
+.header-socials div {
+   display: flex;
+   align-items: center;
+   gap: 6px;
+}
+.beach-container{
+    width: 100%;
+    max-width: 1201px;
+    margin: 80px auto 0;
+    padding: 0 16px;
+}
+.beach-carousel{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.beach-carousel img{
+    width: 220px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 16px;
+    transform: perspective(800px) rotateY(20deg);
+    box-shadow: -8px 8px 20px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s;
+}
+
+.beach-carousel img:not(:first-child){
+    margin-left: -74px;
+}
+
+.beach-carousel img:hover{
+    transform: perspective(800px) rotateY(20deg) translateY(-12px);
+}
+.beach-list{
+    display: flex;
+    margin-top: 40px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+}
+.pro-tips{
+    display: flex;
+    flex-direction: column;
+}
+.pro-tips-table{
+    display: flex;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #4EA48733;
+    padding: 26px 16px 24px 16px;
+    justify-content: center;
+}
+.pro-tips-img{
+    display: flex;
+    margin-bottom: -40px;
+}
+.end-text{
+    display: flex;
+    margin-top: 80px;
+}
