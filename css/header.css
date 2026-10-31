@@ -12,6 +12,7 @@
     padding: 40px 120px;
     flex-wrap: wrap;
     gap: 16px;
+    
 }
 .header-logo{
     width: 80px;
@@ -27,4 +28,7 @@
     list-style-type: none;
      display: flex;
     gap: 72px;
+
+    margin: 0;
+    padding: 0;
 }
