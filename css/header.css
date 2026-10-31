@@ -22,3 +22,9 @@
     display: flex;
     gap: 72px;
 }
+
+.header-links ul{
+    list-style-type: none;
+     display: flex;
+    gap: 72px;
+}
