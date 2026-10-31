@@ -124,7 +124,7 @@
 
 .pro-tips-table {
     display: flex;
-    text-align: center;
+    text-align: left;
     border-radius: 30px;
     background-color: #4EA48733;
     padding: 26px 16px 24px 16px;
@@ -134,9 +134,14 @@
 .pro-tips-img {
     display: flex;
     margin-bottom: -40px;
+    margin-left: -40px;
+}
+.pro-tips-img img{
+    width: 196px;
 }
 
 .end-text {
     display: flex;
     margin-top: 80px;
+
 }
