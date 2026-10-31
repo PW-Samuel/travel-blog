@@ -4,23 +4,35 @@
     font-family: 'Arima';
     scroll-behavior: smooth;
 }
-.header-text{
+
+.article-content {
+    display: flex;
+    margin: 0 auto;
+    gap: 88px;
+    max-width: 1201px;
+
+
+}
+
+.header-text {
     display: flex;
     flex-direction: column;
     gap: 8px;
     flex: 1 1 400px;
     min-width: 0;
 }
-.header-text-container{
+
+.header-text-container {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     width: 100%;
     max-width: 1201px;
     margin: 80px auto 0;
-    padding: 0 16px; 
+    padding: 0 16px;
 }
-.header-avatar{
+
+.header-avatar {
     flex: 0 0 272px;
     max-width: 100%;
     border-radius: 30px;
@@ -29,23 +41,26 @@
     flex-direction: column;
     align-items: center;
 }
-.header-avatar-text{
+
+.header-avatar-text {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.header-avatar-description{
+
+.header-avatar-description {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
     padding: 16px;
 }
-.header-avatar-img{
+
+.header-avatar-img {
     margin-top: 16px;
 }
 
-.header-avatar img{
+.header-avatar img {
     border-radius: 50%;
     object-fit: cover;
     object-position: 70% 50%;
@@ -57,24 +72,27 @@
     gap: 32px;
     margin-top: 40px;
 }
+
 .header-socials div {
-   display: flex;
-   align-items: center;
-   gap: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
-.beach-container{
+
+.beach-container {
     width: 100%;
     max-width: 1201px;
     margin: 80px auto 0;
     padding: 0 16px;
 }
-.beach-carousel{
+
+.beach-carousel {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
 }
 
-.beach-carousel img{
+.beach-carousel img {
     width: 220px;
     height: 320px;
     object-fit: cover;
@@ -84,25 +102,28 @@
     transition: transform 0.3s;
 }
 
-.beach-carousel img:not(:first-child){
+.beach-carousel img:not(:first-child) {
     margin-left: -74px;
 }
 
-.beach-carousel img:hover{
+.beach-carousel img:hover {
     transform: perspective(800px) rotateY(20deg) translateY(-12px);
 }
-.beach-list{
+
+.beach-list {
     display: flex;
     margin-top: 40px;
     align-items: flex-start;
     flex-direction: column;
     gap: 16px;
 }
-.pro-tips{
+
+.pro-tips {
     display: flex;
     flex-direction: column;
 }
-.pro-tips-table{
+
+.pro-tips-table {
     display: flex;
     text-align: center;
     border-radius: 30px;
@@ -110,11 +131,13 @@
     padding: 26px 16px 24px 16px;
     justify-content: center;
 }
-.pro-tips-img{
+
+.pro-tips-img {
     display: flex;
     margin-bottom: -40px;
 }
-.end-text{
+
+.end-text {
     display: flex;
     margin-top: 80px;
 }
