@@ -12,5 +12,10 @@
 
 }
 
-
+.article-text-block{
+    gap: 32px;
+     max-width: 1201px;
+     padding: 0px 16px;
+    
+}
 
