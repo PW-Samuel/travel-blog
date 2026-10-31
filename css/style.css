@@ -44,6 +44,13 @@
 .header-avatar-img{
     margin-top: 16px;
 }
+
+.header-avatar img{
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 70% 50%;
+}
+
 .header-socials {
     display: flex;
     flex-direction: row;
