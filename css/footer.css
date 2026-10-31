@@ -1,0 +1,46 @@
+.footer-box {
+    width: 100%;
+    background-color: #4EA487;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 120px;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+
+}
+
+.footer-left ul {
+    display: flex;
+    gap: 72px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-copyright {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+
+}
+
+.footer-links a {
+    text-decoration: none;
+    
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
