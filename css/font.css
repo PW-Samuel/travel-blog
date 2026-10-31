@@ -74,6 +74,27 @@
     font-size: 64px;
     font-weight: 700;
 }
+
+.article-subtitle{
+     font-weight: 600;
+    color: #4EA487;
+    font-size: 40px;
+}
+
+.header-text .article-title{
+    color: #F1C953;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Arima';
+}
+
+.article-intro{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Palanquin';
+    color:#54370D;
+}
+
 .header-avatar img{
     width: 120px;
     height: 120px;
