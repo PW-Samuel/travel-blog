@@ -109,7 +109,7 @@
     transform: perspective(800px) rotateY(20deg) translateY(-12px);
 }
 
-.beach-carousel p {
+.beach-container-text {
     font-size: 24px;
     font-family: 'Arima';
 }
