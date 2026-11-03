@@ -115,6 +115,8 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 16px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .pro-tips {
