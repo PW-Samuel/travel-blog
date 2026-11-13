@@ -1,7 +1,25 @@
 .hero-header{
-    background-color: yellow;
+    background-color: #F1C953;
     min-height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.main-index{
+    margin-top: 120px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.highlight-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.highlight-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }

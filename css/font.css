@@ -243,4 +243,17 @@
     line-height: 1.2;
     color: #FFFFFF;
 }
-
+.highlight-section h2{
+    font-family: 'Arima';
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 1.2;
+    color: #4EA487;
+}
+.highlight-section p{
+    font-family: 'Palanquin';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.1;
+    color: #54370D;
+}
