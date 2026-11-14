@@ -15,6 +15,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 88px;
 }
 .highlight-text{
     display: flex;
@@ -23,3 +24,51 @@
     justify-content: center;
     text-align: center;
 }
+
+.slider-highlights{
+    width: 100%;
+    max-width: 1200px;
+    height: 533px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 0 100px 0 0 ;
+}
+
+.slider-highlights-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    display: flex;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.slide{
+    width: calc(100% / 2);
+    height: 100%;
+    position: relative;
+}
+
+.slide img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+
+}
+
+.slider-highlights input{
+    z-index: 2;
+}
+
+.slider-highlights input[value="beaches"]:checked ~ .slider-highlights-wrapper{
+    transform: translateX(0);
+} 
+
+.slider-highlights input[value="copenhagen"]:checked ~ .slider-highlights-wrapper{
+    transform: translateX(calc(100% / 2 * -1));
+} 
