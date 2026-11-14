@@ -20,6 +20,15 @@
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+/* palanquin-dark-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Palanquin Dark';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../assets/fonts/palanquin-dark-v17-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 /* arima-regular - latin */
 @font-face {
     font-display: swap;
@@ -256,4 +265,21 @@
     font-size: 24px;
     line-height: 1.1;
     color: #54370D;
+}
+
+.slide-text h3{
+    font-family: 'Palanquin Dark';
+    font-size: 48px;
+    font-style: SemiBold;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 100%;
+}
+
+.slide-text p{
+font-family: 'Palanquin';
+font-weight: 400;
+font-style: Regular;
+font-size: 28px;
+color: #FFFFFF;
 }

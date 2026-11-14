@@ -1,23 +1,26 @@
-.hero-header{
+.hero-header {
     background-color: #F1C953;
     min-height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.main-index{
+
+.main-index {
     margin-top: 120px;
     margin-left: 120px;
     margin-right: 120px;
 }
-.highlight-section{
+
+.highlight-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 88px;
+   
 }
-.highlight-text{
+
+.highlight-text {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -25,7 +28,7 @@
     text-align: center;
 }
 
-.slider-highlights{
+.slider-highlights {
     width: 100%;
     max-width: 1200px;
     height: 533px;
@@ -34,11 +37,12 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    border-radius: 0 100px 0 0 ;
+    border-radius: 0 100px 0 0;
     gap: 22px;
+    margin-top: 88px;
 }
 
-.slider-highlights-wrapper{
+.slider-highlights-wrapper {
     position: absolute;
     top: 0;
     left: 0;
@@ -49,20 +53,20 @@
 
 }
 
-.slide{
+.slide {
     width: calc(100% / 2);
     height: 100%;
     position: relative;
 }
 
-.slide img{
+.slide img {
     width: 100%;
-    height:100%;
+    height: 100%;
     object-fit: cover;
 
 }
 
-.slider-highlights input{
+.slider-highlights input {
     z-index: 2;
     margin-bottom: 44px;
     appearance: none;
@@ -73,16 +77,31 @@
     cursor: pointer;
 }
 
-.slider-highlights input:checked{
+.slider-highlights input:checked {
     width: 40px;
     border-radius: 20px;
     background-color: #F1C953;
 }
 
-.slider-highlights input[value="beaches"]:checked ~ .slider-highlights-wrapper{
+.slider-highlights input[value="beaches"]:checked~.slider-highlights-wrapper {
     transform: translateX(0);
-} 
+}
 
-.slider-highlights input[value="copenhagen"]:checked ~ .slider-highlights-wrapper{
+.slider-highlights input[value="copenhagen"]:checked~.slider-highlights-wrapper {
     transform: translateX(calc(100% / 2 * -1));
-} 
+}
+
+.slide-text {
+    position: absolute;
+    top: 54px;
+    left: 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px 24px;
+    max-width: 881px;
+    background-color: #00000040;
+
+}
+
+
