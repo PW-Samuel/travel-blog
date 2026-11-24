@@ -37,3 +37,33 @@
     padding-bottom: 88px;
   }
 }
+
+.header-content {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;
+  width: 100%;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+  width: 100%; 
+  margin: 0;
+  padding: 0;
+}
+
+.header-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-links {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  .header-links {
+    display: none;
+  }
+}
