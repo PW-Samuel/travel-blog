@@ -204,4 +204,15 @@
 .follow-me {
     margin-top: 80px;
 }
-
+.FAQ{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.FAQ-header{
+    display: flex;
+    flex-direction: column;
+}
+.FAQ-details{
+    
+}
