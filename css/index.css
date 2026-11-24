@@ -17,7 +17,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
 }
 
 .highlight-text {
@@ -50,7 +49,6 @@
     height: 100%;
     display: flex;
     transition: all 0.5s ease-in-out;
-
 }
 
 .slide {
@@ -63,7 +61,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-
 }
 
 .slider-highlights input {
@@ -101,7 +98,79 @@
     padding: 16px 24px;
     max-width: 881px;
     background-color: #00000040;
-
 }
 
+.FAQ {
+    max-width: 1200px;
+    margin: 120px auto 0;
+}
 
+.FAQ .FAQ-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 48px;
+}
+
+.FAQ .FAQ-header img {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+}
+
+.FAQ .FAQ-header h2 {
+    margin: 0;
+    line-height: 1;
+    color: var(--color-green);
+}
+
+.FAQ .FAQ-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.FAQ .FAQ-details summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 8px;
+    margin: 0;
+    background-color: var(--color-yellow);
+    border-radius: 4px;
+    font-family: "Palanquin", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: left;
+    cursor: pointer;
+    list-style: none;
+}
+
+.FAQ .FAQ-details summary::-webkit-details-marker {
+    display: none;
+}
+
+.FAQ .FAQ-details summary::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    margin-left: 16px;
+}
+
+.FAQ .FAQ-details[open] summary::after {
+    transform: rotate(-135deg);
+}
+
+.FAQ .FAQ-details p {
+    padding: 16px 8px;
+    margin: 0;
+    font-size: 16px;
+    text-align: left;
+}
