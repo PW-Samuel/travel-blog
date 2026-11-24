@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+  .mobile-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 24px 25px;
+    background-color: var(--color-yellow);
+    box-sizing: border-box;
+    z-index: 10;
+  }
+
+  .mobile-nav a {
+    position: relative;
+    display: flex;
+  }
+
+  .mobile-nav img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .mobile-nav a:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 64px;
+    border-top: 2px dashed var(--color-green);
+  }
+
+  body {
+    padding-bottom: 88px;
+  }
+}
