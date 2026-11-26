@@ -172,7 +172,10 @@
 
 .FAQ .FAQ-header h2 {
     margin: 0;
-    line-height: 1;
+    font-family: 'Arima';
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
     color: var(--color-green);
 }
 
@@ -219,6 +222,7 @@
 
 .FAQ .FAQ-details p {
     padding: 16px 8px;
+    font-family: 'Palanquin';
     font-size: 16px;
     text-align: left;
 }
@@ -248,12 +252,16 @@
 
 .contact-title h2 {
     margin: 0;
-    line-height: 1;
+    font-family: 'Arima';
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
     color: var(--color-green);
 }
 
 .contact-header p {
     margin: 0;
+    font-family: 'Palanquin';
 }
 
 .contact-form {
@@ -308,6 +316,11 @@
     align-items: center;
     gap: 8px;
     font-size: 12px;
+}
+
+.contact-privacy label,
+.contact-privacy a {
+    font-family: 'Palanquin';
 }
 
 .contact-privacy a {
