@@ -1,0 +1,155 @@
+@media (max-width: 600px) {
+
+    .hero-header {
+        display: block;
+        min-height: 0;
+        background-color: transparent;
+    }
+
+    .hero-mobile {
+        display: block;
+        position: relative;
+    }
+
+    .hero-photo {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-shape {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 59.2%;
+        height: auto;
+    }
+
+    .hero-circle {
+        position: absolute;
+        top: 23.9%;
+        left: 18.7%;
+        width: 42.7%;
+        height: auto;
+    }
+
+    .main-index {
+        margin: 80px 20px 0;
+    }
+
+    .highlight-text {
+        gap: 8px;
+    }
+
+    .highlight-text img {
+        width: 36px;
+        height: auto;
+    }
+
+    .highlight-section h2,
+    .FAQ .FAQ-header h2,
+    .contact-title h2 {
+        font-size: 44px;
+    }
+
+    .highlight-section > p {
+        display: none;
+    }
+
+    .slider-highlights {
+        margin-top: 24px;
+    }
+
+    .slider-highlights input {
+        margin-bottom: 28px;
+    }
+
+    .slide-text {
+        top: 94px;
+        left: 15px;
+        right: 15px;
+        padding: 16px;
+        max-width: none;
+    }
+
+    .slide-text h3 {
+        font-size: 28px;
+        line-height: 1.1;
+    }
+
+    .slide-text p {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .FAQ {
+        margin: 80px auto 0;
+    }
+
+    .FAQ .FAQ-header {
+        margin-bottom: 32px;
+    }
+
+    .FAQ .FAQ-list {
+        gap: 16px;
+    }
+
+    .FAQ .FAQ-details summary {
+        padding: 16px;
+        font-size: 16px;
+    }
+
+    .contact {
+        margin: 80px auto 0;
+        gap: 40px;
+    }
+
+    .contact-header p {
+        display: none;
+    }
+
+    .contact-form {
+        gap: 40px;
+    }
+
+    .contact-row {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact-field label {
+        font-size: 24px;
+    }
+
+    .contact-field input,
+    .contact-field textarea {
+        height: 56px;
+    }
+
+    .contact-bottom {
+        gap: 40px;
+    }
+
+    .contact-privacy {
+        align-items: flex-start;
+        font-size: 14px;
+    }
+
+    .contact-privacy input {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+
+    .contact-button {
+        padding: 4px 32px;
+        border-radius: 30px;
+        font-family: 'Arima';
+        font-size: 28px;
+        font-weight: 700;
+    }
+}
