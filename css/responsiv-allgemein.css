@@ -351,3 +351,8 @@
     transform: scale(1);
   }
 }
+@media (max-width: 600px) {
+  .end-text{
+    margin-bottom: 16px;
+  }
+}

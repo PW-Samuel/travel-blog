@@ -228,3 +228,8 @@
   display: flex;
   justify-content: center;
 }
+.header-text h2 {
+    font-family: 'palanquin', sans-serif;
+    font-weight: 600;
+    color: #54370D;
+}
