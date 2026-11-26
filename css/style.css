@@ -220,3 +220,11 @@
 .share-arrow-mobile {
     display: none;
 }
+.beach-carousel input {
+  display: none;
+}
+
+.beach-carousel-wrapper {
+  display: flex;
+  justify-content: center;
+}

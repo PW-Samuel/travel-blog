@@ -1,20 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Blog</title>
-    
-<link rel="stylesheet" href="./css/variables.css">
-<link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./css/standard.css">
-<link rel="stylesheet" href="./css/header.css">
-<link rel="stylesheet" href="./css/footer.css">
-<link rel="stylesheet" href="./css/font.css">
-<link rel="stylesheet" href="./css/article-01.css">
-<link rel="stylesheet" href="./css/responsiv-allgemein.css" />
 
-</head>
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/standard.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/article-01.css" />
+    <link rel="stylesheet" href="./css/responsiv-allgemein.css" />
+  </head>
   <body>
     <div class="header-box">
       <div class="header-content">
@@ -86,31 +85,65 @@
           </div>
         </div>
       </div>
-    <div class="beach-container">
+      <div class="beach-container">
         <h3>TOP 5 beach destinations for 2026</h3>
         <div class="beach-carousel">
-          <img src="./assets/img/carousel-img-1.jpg" alt="img1" />
-          <img src="./assets/img/carousel-img-2.jpg" alt="img2" />
-          <img src="./assets/img/carousel-img-3.jpg" alt="img3" />
-          <img src="./assets/img/carousel-img-4.jpg" alt="img4" />
-          <img src="./assets/img/carousel-img-5.jpg" alt="img5" />
+          <input
+            type="radio"
+            name="beach"
+            value="beach-1"
+            checked
+            aria-label="Image 1"
+          />
+          <input
+            type="radio"
+            name="beach"
+            value="beach-2"
+            aria-label="Image 2"
+          />
+          <input
+            type="radio"
+            name="beach"
+            value="beach-3"
+            aria-label="Image 3"
+          />
+          <input
+            type="radio"
+            name="beach"
+            value="beach-4"
+            aria-label="Image 4"
+          />
+          <input
+            type="radio"
+            name="beach"
+            value="beach-5"
+            aria-label="Image 5"
+          />
+
+          <div class="beach-carousel-wrapper">
+            <img src="./assets/img/carousel-img-1.jpg" alt="img1" />
+            <img src="./assets/img/carousel-img-2.jpg" alt="img2" />
+            <img src="./assets/img/carousel-img-3.jpg" alt="img3" />
+            <img src="./assets/img/carousel-img-4.jpg" alt="img4" />
+            <img src="./assets/img/carousel-img-5.jpg" alt="img5" />
+          </div>
         </div>
         <div class="beach-container-text">
-        <p>
-          Choosing the best beaches of 2026 was anything but easy. After years
-          of traveling, I've learned that a perfect beach is about much more
-          than soft sand and clear water. It's the moment you arrive, kick off
-          your shoes and feel your whole body slow down. Every place on this
-          list gave me exactly that feeling.
-        </p>
-        <p>
-          You'll find snorkeling spots where colorful fish swim right up to your
-          fingertips, quiet stretches of sand where the only sound is the
-          rolling surf, and golden-hour sunsets that are worth planning an
-          entire trip around. Some of these beaches are easy to reach, others
-          take a boat ride, a bumpy road or a little patience, but I promise the
-          effort is always rewarded.
-        </p>
+          <p>
+            Choosing the best beaches of 2026 was anything but easy. After years
+            of traveling, I've learned that a perfect beach is about much more
+            than soft sand and clear water. It's the moment you arrive, kick off
+            your shoes and feel your whole body slow down. Every place on this
+            list gave me exactly that feeling.
+          </p>
+          <p>
+            You'll find snorkeling spots where colorful fish swim right up to
+            your fingertips, quiet stretches of sand where the only sound is the
+            rolling surf, and golden-hour sunsets that are worth planning an
+            entire trip around. Some of these beaches are easy to reach, others
+            take a boat ride, a bumpy road or a little patience, but I promise
+            the effort is always rewarded.
+          </p>
         </div>
         <div class="beach-list">
           <p>Before you book your trip, keep these essentials in mind:</p>
@@ -193,54 +226,62 @@
             </h6>
           </div>
         </div>
-    </div>
+      </div>
     </div>
     <section class="follow-me">
-                <p class="follow-me-text">
-                    Follow me for more content like this, and share the article with your friends!
-                </p>
+      <p class="follow-me-text">
+        Follow me for more content like this, and share the article with your
+        friends!
+      </p>
 
-               <div class="share-wrapper">
-                    <img class="share-arrow" src="./assets/img/Vector_12.png" alt="">
-                    <img class="share-arrow share-arrow-mobile" src="./assets/icons/share-arrow-mobile.png" alt="">
-                    <a class="share-button" href="#"> <img src="./assets/icons/Frame 438.png" alt="">Share</a>
-                </div>
-            </section>
-        <footer class="footer-box">
-        <div class="footer-content">
-            <div class="footer-left">
-                <p class="footer-copyright">
-                    <img src="./assets/icons/copyright_icon.png" alt="">
-                    Travel Blog 2026
-                </p>
+      <div class="share-wrapper">
+        <img class="share-arrow" src="./assets/img/Vector_12.png" alt="" />
+        <img
+          class="share-arrow share-arrow-mobile"
+          src="./assets/icons/share-arrow-mobile.png"
+          alt=""
+        />
+        <a class="share-button" href="#">
+          <img src="./assets/icons/Frame 438.png" alt="" />Share</a
+        >
+      </div>
+    </section>
+    <footer class="footer-box">
+      <div class="footer-content">
+        <div class="footer-left">
+          <p class="footer-copyright">
+            <img src="./assets/icons/copyright_icon.png" alt="" />
+            Travel Blog 2026
+          </p>
 
-                <nav class="footer-links">
-                    <ul>
-                        <li><a href="#">Imprint</a></li>
-                        <li><a href="#">Cookie Preferences</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-    
+          <nav class="footer-links">
+            <ul>
+              <li><a href="#">Imprint</a></li>
+              <li><a href="#">Cookie Preferences</a></li>
+            </ul>
+          </nav>
+        </div>
 
         <div class="footer-socials">
-            <a href="#"><img src="./assets/icons/Tiktok_icon 1.png" alt=""></a>
-            <a href="#"><img src="./assets/icons/youtube_icon.png" alt=""></a>
-            <a href="#"><img src="./assets/icons/facebook_icon.png" alt=""></a>
-            <a href="#"><img src="./assets/icons/Instagram_icon.png" alt=""></a>
+          <a href="#"><img src="./assets/icons/Tiktok_icon 1.png" alt="" /></a>
+          <a href="#"><img src="./assets/icons/youtube_icon.png" alt="" /></a>
+          <a href="#"><img src="./assets/icons/facebook_icon.png" alt="" /></a>
+          <a href="#"><img src="./assets/icons/Instagram_icon.png" alt="" /></a>
         </div>
-
-        </div>
-
+      </div>
     </footer>
 
-  <nav class="mobile-nav">
-  <a href="index.html"><img src="./assets/icons/Home.png" alt="Home" /></a>
-  <a href="index.html#highlights"><img src="./assets/icons/rocket_launch_green.png" alt="Highlights" /></a>
-  <a href="index.html#faq"><img src="./assets/icons/live_help_green.png" alt="FAQ" /></a>
-  <a href="index.html#contact"><img src="./assets/icons/person_pin_green.png" alt="Contact" /></a>
-</nav>
-
+    <nav class="mobile-nav">
+      <a href="index.html"><img src="./assets/icons/Home.png" alt="Home" /></a>
+      <a href="index.html#highlights"
+        ><img src="./assets/icons/rocket_launch_green.png" alt="Highlights"
+      /></a>
+      <a href="index.html#faq"
+        ><img src="./assets/icons/live_help_green.png" alt="FAQ"
+      /></a>
+      <a href="index.html#contact"
+        ><img src="./assets/icons/person_pin_green.png" alt="Contact"
+      /></a>
+    </nav>
   </body>
 </html>

@@ -284,3 +284,70 @@
         top: -38px;
     }
 }
+@media (max-width: 600px) {
+  .beach-carousel {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    align-items: flex-end;
+    gap: 10px;
+  }
+
+  .beach-carousel-wrapper {
+    position: absolute;
+    top: 16px;
+    left: calc(50% - 110px);
+    width: max-content;
+    justify-content: flex-start;
+    gap: 24px;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .beach-carousel .beach-carousel-wrapper img,
+  .beach-carousel .beach-carousel-wrapper img:not(:first-child),
+  .beach-carousel .beach-carousel-wrapper img:hover {
+    flex: 0 0 220px;
+    width: 220px;
+    height: 320px;
+    margin-left: 0;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    transform: scale(0.85);
+    transition: transform 0.5s ease-in-out;
+  }
+
+
+  .beach-carousel input {
+    display: block;
+    z-index: 2;
+    margin-bottom: 20px;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #4EA48740;
+    cursor: pointer;
+  }
+
+  .beach-carousel input:checked {
+    width: 36px;
+    border-radius: 9px;
+    background-color: var(--color-green);
+  }
+
+  
+  .beach-carousel input[value="beach-1"]:checked ~ .beach-carousel-wrapper { transform: translateX(0); }
+  .beach-carousel input[value="beach-2"]:checked ~ .beach-carousel-wrapper { transform: translateX(-244px); }
+  .beach-carousel input[value="beach-3"]:checked ~ .beach-carousel-wrapper { transform: translateX(-488px); }
+  .beach-carousel input[value="beach-4"]:checked ~ .beach-carousel-wrapper { transform: translateX(-732px); }
+  .beach-carousel input[value="beach-5"]:checked ~ .beach-carousel-wrapper { transform: translateX(-976px); }
+
+
+  .beach-carousel input[value="beach-1"]:checked ~ .beach-carousel-wrapper img:nth-child(1),
+  .beach-carousel input[value="beach-2"]:checked ~ .beach-carousel-wrapper img:nth-child(2),
+  .beach-carousel input[value="beach-3"]:checked ~ .beach-carousel-wrapper img:nth-child(3),
+  .beach-carousel input[value="beach-4"]:checked ~ .beach-carousel-wrapper img:nth-child(4),
+  .beach-carousel input[value="beach-5"]:checked ~ .beach-carousel-wrapper img:nth-child(5) {
+    transform: scale(1);
+  }
+}
