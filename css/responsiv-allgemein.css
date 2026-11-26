@@ -350,4 +350,23 @@
   .beach-carousel input[value="beach-5"]:checked ~ .beach-carousel-wrapper img:nth-child(5) {
     transform: scale(1);
   }
+
+  .imprint-content {
+        gap: 24px;
+        margin: 24px auto 40px;
+        padding: 0 15px;
+    }
+
+    .imprint-title {
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    .imprint-section h2 {
+        font-size: 20px;
+    }
+
+    .imprint-section p {
+        font-size: 16px;
+    }
 }
