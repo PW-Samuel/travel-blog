@@ -375,3 +375,15 @@
     margin-bottom: 16px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+
+    .header-content {
+        width: 100%;
+        padding: 40px max(120px, calc((100% - 1440px) / 2));
+    }
+
+    .footer-content {
+        padding: 60px max(120px, calc((100% - 1440px) / 2));
+    }
+}

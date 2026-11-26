@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+
+    .beach-list {
+        margin: 24px 0 32px;
+        gap: 16px;
+    }
+
+    .beach-list p,
+    .beach-list td,
+    .pro-tips-table td {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .beach-list strong,
+    .pro-tips-table strong,
+    .pro-tips-table a {
+        font-size: inherit;
+    }
+
+    .beach-list table,
+    .pro-tips-table table {
+        border-spacing: 0;
+    }
+
+    .beach-list td,
+    .pro-tips-table td {
+        padding: 0;
+        vertical-align: top;
+    }
+
+    .beach-list td:first-child {
+        padding: 0 4px 0 11px;
+    }
+
+    .pro-tips-table td:first-child {
+        padding-right: 4px;
+    }
+}

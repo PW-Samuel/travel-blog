@@ -151,3 +151,17 @@
         font-weight: 700;
     }
 }
+
+@media screen and (min-width: 1440px) {
+
+    .hero-header {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .main-index {
+        max-width: 1440px;
+        margin: 120px auto 0;
+        padding: 0 120px;
+    }
+}
