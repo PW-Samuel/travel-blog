@@ -106,6 +106,7 @@
 }
 
 .article-subtitle {
+    font-family: 'Palanquin';
     font-weight: 600;
     color: #4EA487;
     font-size: 40px;
@@ -285,4 +286,106 @@ color: #FFFFFF;
 }
 .FAQ{
     font-size: 24px;
+}
+
+.beach-container-text p {
+    font-family: 'Palanquin';
+    line-height: 1.2;
+}
+
+.article-list li,
+.article-list strong {
+    font-family: 'Palanquin';
+}
+
+.article-list li {
+    font-size: 24px;
+    line-height: 1.2;
+    color: #3D3D3D;
+}
+
+
+.hero-desktop-text h1 {
+    font-family: 'Arima';
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.hero-desktop-text p {
+    font-family: 'Palanquin';
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.FAQ .FAQ-header h2 {
+    font-family: 'Arima';
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.FAQ .FAQ-details summary {
+    font-family: "Palanquin", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.FAQ .FAQ-details p {
+    font-family: 'Palanquin';
+    font-size: 16px;
+}
+
+.contact-title h2 {
+    font-family: 'Arima';
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.contact-header p {
+    font-family: 'Palanquin';
+}
+
+.contact-field label {
+    font-family: "Palanquin", sans-serif;
+    font-size: 16px;
+}
+
+.contact-field input,
+.contact-field textarea {
+    font-family: "Palanquin", sans-serif;
+    font-size: 16px;
+}
+
+.contact-privacy {
+    font-size: 12px;
+}
+
+.contact-privacy label,
+.contact-privacy a {
+    font-family: 'Palanquin';
+}
+
+.contact-button {
+    font-size: 16px;
+}
+
+.imprint-title {
+    font-size: 48px;
+}
+
+.imprint-section h2 {
+    font-size: 24px;
+}
+
+.imprint-section p {
+    font-family: 'Palanquin';
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.imprint-section a {
+    font-family: 'Palanquin';
 }

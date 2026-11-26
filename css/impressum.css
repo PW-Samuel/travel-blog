@@ -8,7 +8,6 @@
 }
 
 .imprint-title {
-    font-size: 48px;
     color: var(--color-green);
 }
 
@@ -18,18 +17,6 @@
     gap: 8px;
 }
 
-.imprint-section h2 {
-    font-size: 24px;
-}
-
-.imprint-section p {
-    font-family: 'Palanquin';
-    font-size: 18px;
-    line-height: 1.2;
-}
-
 .imprint-section a {
     color: var(--color-green);
 }
-
-

@@ -33,18 +33,11 @@
 
 .hero-desktop-text h1 {
     margin: 0;
-    font-family: 'Arima';
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 1.2;
     color: #54370D;
 }
 
 .hero-desktop-text p {
     margin: 0;
-    font-family: 'Palanquin';
-    font-size: 24px;
-    line-height: 1.2;
     color: #54370D;
 }
 
@@ -172,10 +165,6 @@
 
 .FAQ .FAQ-header h2 {
     margin: 0;
-    font-family: 'Arima';
-    font-size: 52px;
-    font-weight: 700;
-    line-height: 1.2;
     color: var(--color-green);
 }
 
@@ -192,10 +181,6 @@
     padding: 16px 14px 16px 14px;
     background-color: var(--color-yellow);
     border-radius: 12px;
-    font-family: "Palanquin", sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 120%;
     text-align: left;
     cursor: pointer;
     list-style: none;
@@ -222,11 +207,8 @@
 
 .FAQ .FAQ-details p {
     padding: 16px 8px;
-    font-family: 'Palanquin';
-    font-size: 16px;
     text-align: left;
 }
-
 
 .contact {
     max-width: 1100px;
@@ -252,16 +234,11 @@
 
 .contact-title h2 {
     margin: 0;
-    font-family: 'Arima';
-    font-size: 52px;
-    font-weight: 700;
-    line-height: 1.2;
     color: var(--color-green);
 }
 
 .contact-header p {
     margin: 0;
-    font-family: 'Palanquin';
 }
 
 .contact-form {
@@ -282,19 +259,12 @@
     gap: 8px;
 }
 
-.contact-field label {
-    font-family: "Palanquin", sans-serif;
-    font-size: 16px;
-}
-
 .contact-field input,
 .contact-field textarea {
     border: none;
     border-bottom: 1px solid currentColor;
     background: transparent;
     padding: 8px 0;
-    font-family: "Palanquin", sans-serif;
-    font-size: 16px;
     resize: none;
     outline: none;
 }
@@ -315,12 +285,6 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 12px;
-}
-
-.contact-privacy label,
-.contact-privacy a {
-    font-family: 'Palanquin';
 }
 
 .contact-privacy a {
@@ -332,7 +296,6 @@
     border: 1px solid currentColor;
     border-radius: 20px;
     background: transparent;
-    font-size: 16px;
     cursor: pointer;
 }
 
@@ -340,6 +303,7 @@
     opacity: 0.4;
     pointer-events: none;
 }
+
 .hero-mobile {
     display: none;
 }
