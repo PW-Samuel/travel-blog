@@ -1,9 +1,59 @@
 .hero-header {
-    background-color: #F1C953;
-    min-height: 550px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.hero-desktop {
+    position: relative;
+}
+
+.hero-desktop-photo {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero-desktop-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 44.9%;
+    height: auto;
+}
+
+.hero-desktop-text {
+    position: absolute;
+    top: 27.4%;
+    left: 7.4%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 330px;
+}
+
+.hero-desktop-text h1 {
+    margin: 0;
+    font-family: 'Arima';
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #54370D;
+}
+
+.hero-desktop-text p {
+    margin: 0;
+    font-family: 'Palanquin';
+    font-size: 24px;
+    line-height: 1.2;
+    color: #54370D;
+}
+
+.hero-desktop-circle {
+    position: absolute;
+    top: 53.8%;
+    left: 31.1%;
+    width: 11%;
+    height: auto;
 }
 
 .main-index {
